@@ -24,7 +24,7 @@ For example,
 * You can create another node as well which is quite simple, using the command: **bin/elasticsearch - Des.node.name=Node-2**
 * By default we will be able to communicate with this new node using the 9201 port http://localhost:9201.
 * Pip install the packages mentioned above in command prompt. 
-* Add python code to the cluster.
+* Add python code to the cluster in ElasticSearch.
 * Download and install Kibana in the local system.
 
 Code was built that would fetch the tweets from twitter and display on Kibana dashboard.
