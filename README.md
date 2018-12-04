@@ -44,6 +44,6 @@ Code was built that would fetch the tweets from twitter and display on Kibana da
         * access_token_secret
 6. Enter the keys and secrets credentials given by Twitter.
 7. Create a class StdOutListener and define fucntion in it.
-8. Call class also mentioning the keywords to meet the search.
+8. Call class and also mention the keywords in function.
 
 The entire code could be found [here](https://github.com/NishaSingh07/demo-repo/blob/master/twitter_streaming_refined.py).
