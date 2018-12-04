@@ -21,7 +21,7 @@ For example,
 
 * Downloading, prerequisites, and running Elasticsearch in the local system. 
 * After installing ElasticSearch, cluster with one node will be running. You can interact with it at http://localhost:9200/
-* You can create another node as well which is quite simple, using the command: bin/elasticsearch - **Des.node.name=Node-2**
+* You can create another node as well which is quite simple, using the command: **bin/elasticsearch - Des.node.name=Node-2**
 * By default we will be able to communicate with this new node using the 9201 port http://localhost:9201.
 * Pip install the packages mentioned above in command prompt. 
 * Add python code to the cluster.
