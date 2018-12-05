@@ -1,9 +1,27 @@
 # KIBANA DASHBOARD
 
-The purpose of the project was to get the live tweets on the [kibana](https://www.elastic.co/guide/en/kibana/current/dashboard.html) dashboard. 
+This project helps to get live tweets on [kibana](https://www.elastic.co/guide/en/kibana/current/dashboard.html) dashboard. 
 
+This solution helps you to listen to keywords (similar to twitter search for keywords) and stream related tweets in near real time onto Kibana Dashboard. 
+
+Requirements:
+1. ElasticSearch and Kibana
+2. Python 3.6 + ElasticSearch and Tweepy Python APIs
+3. Machine to host the above.
+
+Steps to deploy the solution:
+1. Setup ElasticSearch and Kibana in the host machine.
+2. Make necessary configurations in Python code and run it in the host machine.
+	The python code here is well commented and the user just has to make necessary changes in places we have *** (Make sure you fill everything) . The user just has to provide twitter developer keys ([link](https://apps.twitter.com/)) and ElasticSearch credentials for above server. Provide lsit of keywords to stream related tweets.
+	
+3. Create Kibana dashboards.
+4. 
+1. Setup ElasticSearch and Kibana in the host machine
+Refer to, https://www.elastic.co/guide/en/elasticsearch/reference/current/install-elasticsearch.html
+
+2. 
 ~~~~
-- ElasticSearch package was used to get the data from twitter.
+- ElasticSearch package  used to get the data from twitter.
 - tweepy python library could be used for accessing the Twitter API.
 - json package coud be used to work on JSON data. JSON string can be parsed it by using the json.loads() method.
 ~~~~
